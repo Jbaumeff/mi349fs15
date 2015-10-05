@@ -1,0 +1,56 @@
+body {
+  font-family: Helvetica;
+  background: url('../img/stardust_@2X.png');
+}
+
+article {
+  width: 700px;
+  margin: 0px auto;
+  padding: 1em 3em;
+  color: #fff;
+  background-color: rgba(25, 25, 25, 0.75);
+}
+
+a {
+  color: grey;
+  line-height: 3em;
+  font-size: 0.75em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.line {
+  background-color: white;
+
+}
+
+.linkedin, .indeed, .glassdoor {
+  width: 48px;
+  height: 48px;
+}
+
+.comps, .personas {
+  display: table;
+  width: auto;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.comp {
+  width: 250px;
+  text-align: center;
+  display: table-cell;
+}
+
+.recruiter, .business, .gamer {
+  width: 120px;
+  height: 120px;
+}
+
+.persona {
+  width: 250px;
+  display: table-cell;
+  text-align: center;
+}

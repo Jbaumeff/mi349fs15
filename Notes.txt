@@ -1,4 +1,6 @@
 h1 should really only be used once.
 
-
+// Week Two
 LAB TODO: Research 5 different CSS properties.  Color, width
+
+// Week Three
