@@ -4,3 +4,10 @@ h1 should really only be used once.
 LAB TODO: Research 5 different CSS properties.  Color, width
 
 // Week Three
+
+// Week Six
+Good Read:  Universal Principles of Design
+
+Golden / Divine ratio
+A ratio within elements of a form, such as height to width,
+appromizating 0.618 / 1.618
