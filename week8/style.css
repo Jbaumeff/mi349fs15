@@ -1,12 +1,44 @@
 .column {
-  width: 50%;
-  margin: 0px auto;
+  /*display: table-cell;*/
+  /*width: 50%;*/
+  margin: 1em auto;
   background: #e3e3e3;
+  border: 1px solid #ccc;
   padding: 1em;
+  float: left;
 }
 
-@media (min-width: 600px) {
-  .column {
-    width: 100%;
+
+@media (max-width: 799px) and (min-width: 400px) {
+  body {
+    background-color: teal;
   }
+  .column {
+    width: 95%;
+    /*margin-left: 1em;
+    margin-right: 1em;*/
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 800px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .column {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .column {
+    width: 30%;
+  }
+
+
+
 }
