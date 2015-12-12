@@ -1,0 +1,7 @@
+<article class="games">
+  <div ng-repeat="(key, value) in apps track by $index" id="{{value}}" ng-class="getClass($index)" ng-click="changePath(value)">
+    <h3>
+      {{key}}
+    </h3>
+  </div>
+</article>
