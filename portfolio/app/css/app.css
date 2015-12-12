@@ -397,7 +397,7 @@ article {
      body {
        width: auto;
        font-size: 12pt;
-       background-color: yellow;
+       /*background-color: yellow;*/
      }
 
      #contact {
